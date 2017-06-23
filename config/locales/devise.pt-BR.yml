@@ -1,0 +1,59 @@
+pt-BR:
+  devise:
+    confirmations:
+      confirmed: "Su cuenta ha sido confirmada con éxito. Usted está conectado."
+      send_instructions: "En pocos minutos, recibirá un correo electrónico con instrucciones para confirmar su cuenta."
+      send_paranoid_instructions: "Si su dirección de e-mail está registrada, recibirá un mensaje con las instrucciones para confirmar su cuenta."
+    failure:
+      already_authenticated: "Usted ya está conectado."
+      inactive: "Su cuenta no ha sido activada."
+      invalid: "%{authentication_keys} O contraseña no válida."
+      locked: "Su cuenta está bloqueada."
+      last_attempt: "Usted tiene otro intento antes de bloquear su cuenta."
+      not_found_in_database: "%{authentication_keys} O contraseña no válida."
+      timeout: "Su sesión ha caducado, por favor, inicie sesión de nuevo para continuar."
+      unauthenticated: "Para continuar, conéctate o registrate."
+      unconfirmed: "Antes de continuar, confirme su cuenta."
+    mailer:
+      confirmation_instructions:
+        subject: "Instrucciones de confirmación"
+      reset_password_instructions:
+        subject: "Instrucciones de cambio de contraseña"
+      unlock_instructions:
+        subject: "Instrucciones de desbloqueo"
+    omniauth_callbacks:
+      failure: "No se pudo autenticar como %{kind} porque %{reason}."
+      success: "Autenticado con éxito con una cuenta de usuario %{kind}."
+    passwords:
+      no_token: "Sólo puede acceder a esta página a través de un correo electrónico de intercambio de contraseñas. Si ya tiene acceso a un correo electrónico, compruebe que la dirección URL proporcionada es completa."
+      send_instructions: "En pocos minutos, recibirá un correo electrónico con instrucciones para cambiar su contraseña."
+      send_paranoid_instructions: "Si su dirección de correo electrónico está registrada, recibirá un vínculo de recuperación de contraseñas vía e-mail."
+      updated: "Su contraseña ha cambiado con éxito. Usted está conectado."
+      updated_not_active: "Su contraseña ha cambiado con éxito."
+    registrations:
+      destroyed: "Su cuenta ha sido cancelada con éxito. Esperamos verlo de nuevo pronto."
+      signed_up: "Inicio de sesión con éxito. Si no se ha autorizado, la confirmación se enviará por correo electrónico.."
+      signed_up_but_inactive: "Usted ha sido registrado con éxito. Sin embargo, no se pudo iniciar sesión, ya que su cuenta no se activó."
+      signed_up_but_locked: "Usted ha sido registrado con éxito. Sin embargo, no se pudo iniciar sesión, ya que su cuenta está bloqueada."
+      signed_up_but_unconfirmed: "Un mensaje con un vínculo de confirmación se ha enviado a su dirección de correo electrónico. Por favor, abra el enlace para confirmar su cuenta."
+      update_needs_confirmation: "Usted ha actualizado su cuenta con éxito, pero su nueva dirección de correo electrónico debe ser confirmada. Por favor, acceda y haga clic en el enlace de confirmación que enviamos."
+      updated: "Su cuenta ha sido actualizada con éxito."
+    sessions:
+      signed_in: "Iniciar sesión con éxito!"
+      signed_out: "Se salió con éxito."
+      already_signed_out: "Se salió con éxito."
+    unlocks:
+      send_instructions: "Dentro de minutos, recibirá un correo electrónico con instrucciones para desbloquear su cuenta."
+      send_paranoid_instructions: "Si su cuenta existe, usted recibirá un e-mail con instrucciones para desbloquearla en unos minutos."
+      unlocked: "Su cuenta ha sido desbloqueada con éxito. Inicie sesión para continuar."
+
+  errors:
+    messages:
+      already_confirmed: "Ha sido confirmado"
+      confirmation_period_expired: "Necesita ser confirmada en hasta %{period}, Por favor, solicite una nueva."
+      expired: "Ha expirado, por favor, solicite una nueva"
+      not_found: "No encontrado"
+      not_locked: "No se ha bloqueado"
+      not_saved:
+        one: "No se pudo guardar %{resource}: 1 error"
+        other: "No se pudo guardar %{resource}: %{count} errores."
